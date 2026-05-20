@@ -8,9 +8,9 @@ The Template is intended to be plug and play, so you should already see your fir
 
 ### Rename the Create Analyzer
 
-The default name for the analyzer will be `CustomCodeCop.dll`. If you want to change this name I would highly recommend you to do this using vs code since you can search & replace across all files. You can use vs code in the web for this. Wen you are at you github repository just press the `.` (dot) key on your keyboard.
-Just search for `CustomCodeCop` and replace it with your inteded name. This name should be best be PascalCase as well. 
-Its also important to rename the `CustomCodeCop.csproj` in the same way.
+The default name for the analyzer will be `PDWCodeCop.dll`. If you want to change this name I would highly recommend you to do this using vs code since you can search & replace across all files. You can use vs code in the web for this. Wen you are at you github repository just press the `.` (dot) key on your keyboard.
+Just search for `PDWCodeCop` and replace it with your inteded name. This name should be best be PascalCase as well. 
+Its also important to rename the `PDWCodeCop.csproj` in the same way.
 You might want to delete the Draft release created since it will contain dlls from the original name, but this is not mandatory as it wont break anything.
 
 ## Starting the Codespace
