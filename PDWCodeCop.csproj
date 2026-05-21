@@ -4,12 +4,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>Latest</LangVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Collections.Immutable" Version="8.0.0" />
+  </ItemGroup>
   <ItemGroup>  
-        <Reference Include="System.Collections.Immutable">
-            <SpecificVersion>False</SpecificVersion>
-            <HintPath>ALLanguage/extension/bin/Analyzers/System.Collections.Immutable.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
         <Reference Include="Microsoft.Dynamics.Nav.CodeAnalysis">
             <SpecificVersion>False</SpecificVersion>
             <HintPath>ALLanguage/extension/bin/Analyzers/Microsoft.Dynamics.Nav.CodeAnalysis.dll</HintPath>

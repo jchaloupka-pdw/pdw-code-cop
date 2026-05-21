@@ -28,12 +28,12 @@ public class Rule0001FlowFieldsShouldNotBeEditable : DiagnosticAnalyzer
     public static class DiagnosticDescriptors
     {
         public static readonly DiagnosticDescriptor Rule0001FlowFieldsShouldNotBeEditable = new(
-            id: "CC0001",
-            title: "My Custom Error",
-            messageFormat: "My Custom Error, the field name is: {0}",
+            id: "PDW0001",
+            title: "FlowFields cannot be editable",
+            messageFormat: "FlowFields cannot be editable, the problematic field name is: {0}",
             category: "Design",
             defaultSeverity: DiagnosticSeverity.Warning, isEnabledByDefault: true,
             description: "Raise a diagnostic when the field is of type FlowField, without the property Editable on the field is set to false.",
-            helpLinkUri: "https://some.url/CC0001");
+            helpLinkUri: "https://some.url/PDW0001");
     }
 }

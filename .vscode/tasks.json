@@ -46,13 +46,13 @@
         {
             "label": "LoadALLanguageDependency",
             "type": "shell",
-            "command": "pwsh ./.vscode/LoadALLanguage.ps1",
+            "command": "powershell -File ./.vscode/LoadALLanguage.ps1",
             "problemMatcher": []
         },
         {
             "label": "Prep Codespace",
             "type": "shell",
-            "command": "pwsh ./.devcontainer/ContainerPrep.ps1",
+            "command": "powershell -File ./.devcontainer/ContainerPrep.ps1",
             "problemMatcher": []
         }
     ]
